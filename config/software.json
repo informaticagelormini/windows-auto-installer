@@ -1,0 +1,216 @@
+{
+  "browsers": {
+    "chrome": {
+      "display_name": "Google Chrome",
+      "install_command": "winget install -e --id Google.Chrome --accept-package-agreements --accept-source-agreements",
+      "category": "Browser",
+      "description": "Browser web veloce e sicuro di Google"
+    },
+    "firefox": {
+      "display_name": "Mozilla Firefox",
+      "install_command": "winget install -e --id Mozilla.Firefox --accept-package-agreements --accept-source-agreements",
+      "category": "Browser",
+      "description": "Browser open source e personalizzabile"
+    },
+    "edge": {
+      "display_name": "Microsoft Edge",
+      "install_command": "winget install -e --id Microsoft.Edge --accept-package-agreements --accept-source-agreements",
+      "category": "Browser",
+      "description": "Browser Microsoft (gia incluso in Windows 11)"
+    },
+    "brave": {
+      "display_name": "Brave Browser",
+      "install_command": "winget install -e --id Brave.Brave --accept-package-agreements --accept-source-agreements",
+      "category": "Browser",
+      "description": "Browser basato su Chromium con focus sulla privacy"
+    }
+  },
+  "office": {
+    "libreoffice": {
+      "display_name": "LibreOffice",
+      "install_command": "winget install -e --id TheDocumentFoundation.LibreOffice --accept-package-agreements --accept-source-agreements",
+      "category": "Produttivita",
+      "description": "Suite office gratuita e open source completa"
+    },
+    "office365": {
+      "display_name": "Microsoft Office 365",
+      "install_command": "winget install -e --id Microsoft.Office --accept-package-agreements --accept-source-agreements",
+      "category": "Produttivita",
+      "description": "Suite office Microsoft (richiede licenza/abbonamento)"
+    },
+    "onlyoffice": {
+      "display_name": "ONLYOFFICE Desktop",
+      "install_command": "winget install -e --id ONLYOFFICE.DesktopEditors --accept-package-agreements --accept-source-agreements",
+      "category": "Produttivita",
+      "description": "Suite office compatibile con formati Microsoft"
+    }
+  },
+  "pdf": {
+    "adobe": {
+      "display_name": "Adobe Acrobat Reader",
+      "install_command": "winget install -e --id Adobe.Acrobat.Reader.64-bit --accept-package-agreements --accept-source-agreements",
+      "category": "Documenti",
+      "description": "Lettore PDF Adobe ufficiale"
+    },
+    "foxit": {
+      "display_name": "Foxit Reader",
+      "install_command": "winget install -e --id Foxit.FoxitReader --accept-package-agreements --accept-source-agreements",
+      "category": "Documenti",
+      "description": "Lettore PDF alternativo veloce e leggero"
+    },
+    "sumatrapdf": {
+      "display_name": "Sumatra PDF",
+      "install_command": "winget install -e --id SumatraPDF.SumatraPDF --accept-package-agreements --accept-source-agreements",
+      "category": "Documenti",
+      "description": "Lettore PDF minimalista e velocissimo"
+    }
+  },
+  "compression": {
+    "7zip": {
+      "display_name": "7-Zip",
+      "install_command": "winget install -e --id 7zip.7zip --accept-package-agreements --accept-source-agreements",
+      "category": "Utilita",
+      "description": "Compressore file gratuito e potente, open source"
+    },
+    "winrar": {
+      "display_name": "WinRAR",
+      "install_command": "winget install -e --id RARLab.WinRAR --accept-package-agreements --accept-source-agreements",
+      "category": "Utilita",
+      "description": "Compressore file RAR (versione trial 40 giorni)"
+    },
+    "peazip": {
+      "display_name": "PeaZip",
+      "install_command": "winget install -e --id Giorgiotani.Peazip --accept-package-agreements --accept-source-agreements",
+      "category": "Utilita",
+      "description": "Gestore archivi gratuito con supporto a molti formati"
+    }
+  },
+  "antivirus": {
+    "avast": {
+      "display_name": "Avast Free Antivirus",
+      "install_command": "winget install -e --id AVAST.AVAST --accept-package-agreements --accept-source-agreements",
+      "category": "Sicurezza",
+      "description": "Antivirus gratuito con protezione in tempo reale"
+    },
+    "avg": {
+      "display_name": "AVG Free Antivirus",
+      "install_command": "winget install -e --id AVG.AVG --accept-package-agreements --accept-source-agreements",
+      "category": "Sicurezza",
+      "description": "Antivirus gratuito (stesso motore di Avast)"
+    },
+    "malwarebytes": {
+      "display_name": "Malwarebytes",
+      "install_command": "winget install -e --id Malwarebytes.Malwarebytes --accept-package-agreements --accept-source-agreements",
+      "category": "Sicurezza",
+      "description": "Anti-malware potente (versione free con scansione manuale)"
+    }
+  },
+  "utilities": {
+    "notepadplusplus": {
+      "display_name": "Notepad++",
+      "install_command": "winget install -e --id Notepad++.Notepad++ --accept-package-agreements --accept-source-agreements",
+      "category": "Sviluppo",
+      "description": "Editor di testo avanzato per programmatori"
+    },
+    "vlc": {
+      "display_name": "VLC Media Player",
+      "install_command": "winget install -e --id VideoLAN.VLC --accept-package-agreements --accept-source-agreements",
+      "category": "Multimedia",
+      "description": "Lettore multimediale universale che riproduce tutto"
+    },
+    "gimp": {
+      "display_name": "GIMP",
+      "install_command": "winget install -e --id GIMP.GIMP --accept-package-agreements --accept-source-agreements",
+      "category": "Grafica",
+      "description": "Editor di immagini open source (alternativa a Photoshop)"
+    },
+    "audacity": {
+      "display_name": "Audacity",
+      "install_command": "winget install -e --id Audacity.Audacity --accept-package-agreements --accept-source-agreements",
+      "category": "Multimedia",
+      "description": "Editor audio open source professionale"
+    },
+    "paintnet": {
+      "display_name": "Paint.NET",
+      "install_command": "winget install -e --id dotPDN.PaintDotNet --accept-package-agreements --accept-source-agreements",
+      "category": "Grafica",
+      "description": "Editor di immagini semplice ma potente"
+    },
+    "ccleaner": {
+      "display_name": "CCleaner",
+      "install_command": "winget install -e --id Piriform.CCleaner --accept-package-agreements --accept-source-agreements",
+      "category": "Utilita",
+      "description": "Pulizia e ottimizzazione del sistema"
+    },
+    "teamviewer": {
+      "display_name": "TeamViewer",
+      "install_command": "winget install -e --id TeamViewer.TeamViewer --accept-package-agreements --accept-source-agreements",
+      "category": "Remoto",
+      "description": "Software di desktop remoto e supporto"
+    },
+    "anydesk": {
+      "display_name": "AnyDesk",
+      "install_command": "winget install -e --id AnyDeskSoftwareGmbH.AnyDesk --accept-package-agreements --accept-source-agreements",
+      "category": "Remoto",
+      "description": "Desktop remoto veloce e leggero"
+    }
+  },
+  "development": {
+    "vscode": {
+      "display_name": "Visual Studio Code",
+      "install_command": "winget install -e --id Microsoft.VisualStudioCode --accept-package-agreements --accept-source-agreements",
+      "category": "Sviluppo",
+      "description": "Editor di codice Microsoft potente ed estensibile"
+    },
+    "git": {
+      "display_name": "Git",
+      "install_command": "winget install -e --id Git.Git --accept-package-agreements --accept-source-agreements",
+      "category": "Sviluppo",
+      "description": "Sistema di controllo versione distribuito"
+    },
+    "python": {
+      "display_name": "Python 3",
+      "install_command": "winget install -e --id Python.Python.3.12 --accept-package-agreements --accept-source-agreements",
+      "category": "Sviluppo",
+      "description": "Linguaggio di programmazione Python"
+    },
+    "nodejs": {
+      "display_name": "Node.js",
+      "install_command": "winget install -e --id OpenJS.NodeJS --accept-package-agreements --accept-source-agreements",
+      "category": "Sviluppo",
+      "description": "Runtime JavaScript per sviluppo backend"
+    },
+    "docker": {
+      "display_name": "Docker Desktop",
+      "install_command": "winget install -e --id Docker.DockerDesktop --accept-package-agreements --accept-source-agreements",
+      "category": "Sviluppo",
+      "description": "Piattaforma per containerizzazione applicazioni"
+    }
+  },
+  "communication": {
+    "discord": {
+      "display_name": "Discord",
+      "install_command": "winget install -e --id Discord.Discord --accept-package-agreements --accept-source-agreements",
+      "category": "Comunicazione",
+      "description": "Piattaforma di chat vocale e testuale"
+    },
+    "zoom": {
+      "display_name": "Zoom",
+      "install_command": "winget install -e --id Zoom.Zoom --accept-package-agreements --accept-source-agreements",
+      "category": "Comunicazione",
+      "description": "Software per videoconferenze"
+    },
+    "telegram": {
+      "display_name": "Telegram Desktop",
+      "install_command": "winget install -e --id Telegram.TelegramDesktop --accept-package-agreements --accept-source-agreements",
+      "category": "Comunicazione",
+      "description": "App di messaggistica veloce e sicura"
+    },
+    "whatsapp": {
+      "display_name": "WhatsApp Desktop",
+      "install_command": "winget install -e --id WhatsApp.WhatsApp --accept-package-agreements --accept-source-agreements",
+      "category": "Comunicazione",
+      "description": "App di messaggistica per desktop"
+    }
+  }
+}
